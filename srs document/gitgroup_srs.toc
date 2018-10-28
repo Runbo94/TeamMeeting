@@ -26,24 +26,31 @@
 \contentsline {subsection}{\numberline {4.1.1}Functional User Requirement}{11}{subsection.4.1.1}
 \contentsline {subsection}{\numberline {4.1.2}Non-Functional User Requirement}{11}{subsection.4.1.2}
 \contentsline {section}{\numberline {4.2}System Requirements}{11}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Functional System Requirement}{11}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Non-Functional System Requirement}{12}{subsection.4.2.2}
-\contentsline {chapter}{\numberline {5}System Models}{13}{chapter.5}
-\contentsline {section}{\numberline {5.1}Use Case Diagram}{13}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}KanBan}{13}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}Chart}{14}{subsection.5.1.2}
-\contentsline {subsection}{\numberline {5.1.3}Chat}{14}{subsection.5.1.3}
-\contentsline {section}{\numberline {5.2}State Diagram}{15}{section.5.2}
-\contentsline {section}{\numberline {5.3}Activity Diagram}{15}{section.5.3}
-\contentsline {section}{\numberline {5.4}Sequence Diagram}{17}{section.5.4}
-\contentsline {section}{\numberline {5.5}Class Diagram}{20}{section.5.5}
-\contentsline {chapter}{\numberline {6}System Architecture}{21}{chapter.6}
-\contentsline {section}{\numberline {6.1}TypeScript}{21}{section.6.1}
-\contentsline {section}{\numberline {6.2}mLab}{22}{section.6.2}
-\contentsline {section}{\numberline {6.3}MongoDB}{22}{section.6.3}
-\contentsline {section}{\numberline {6.4}Express}{22}{section.6.4}
-\contentsline {section}{\numberline {6.5}React}{22}{section.6.5}
-\contentsline {section}{\numberline {6.6}NodeJs}{22}{section.6.6}
-\contentsline {section}{\numberline {6.7}Heroku}{22}{section.6.7}
-\contentsline {chapter}{\numberline {A}Figures}{24}{appendix.A}
-\contentsline {chapter}{References}{35}{appendix*.4}
+\contentsline {subsection}{\numberline {4.2.1}User Interfaces (Functional Requirements)}{11}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Back-end Interfaces(Functional Requirements)}{12}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Non-Functional System Requirement}{13}{subsection.4.2.3}
+\contentsline {chapter}{\numberline {5}System Models}{14}{chapter.5}
+\contentsline {section}{\numberline {5.1}Use Case Diagram}{14}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}KanBan}{14}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Chart}{15}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Chat}{15}{subsection.5.1.3}
+\contentsline {section}{\numberline {5.2}State Diagram}{16}{section.5.2}
+\contentsline {section}{\numberline {5.3}Activity Diagram}{16}{section.5.3}
+\contentsline {section}{\numberline {5.4}Sequence Diagram}{18}{section.5.4}
+\contentsline {section}{\numberline {5.5}Class Diagram}{21}{section.5.5}
+\contentsline {chapter}{\numberline {6}System Architecture}{22}{chapter.6}
+\contentsline {section}{\numberline {6.1}TypeScript}{22}{section.6.1}
+\contentsline {section}{\numberline {6.2}mLab}{23}{section.6.2}
+\contentsline {section}{\numberline {6.3}MongoDB}{23}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}NoSQL language}{23}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Document-Oriented}{23}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.3.3}Schema-Less}{23}{subsection.6.3.3}
+\contentsline {subsection}{\numberline {6.3.4}JavaScript Based}{23}{subsection.6.3.4}
+\contentsline {section}{\numberline {6.4}Express}{24}{section.6.4}
+\contentsline {section}{\numberline {6.5}React}{24}{section.6.5}
+\contentsline {subsection}{\numberline {6.5.1}Why use ReactJs?}{24}{subsection.6.5.1}
+\contentsline {subsection}{\numberline {6.5.2}How does it works?}{24}{subsection.6.5.2}
+\contentsline {section}{\numberline {6.6}NodeJs}{25}{section.6.6}
+\contentsline {section}{\numberline {6.7}Heroku}{25}{section.6.7}
+\contentsline {chapter}{\numberline {A}Figures}{26}{appendix.A}
+\contentsline {chapter}{References}{37}{appendix*.4}

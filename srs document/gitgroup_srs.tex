@@ -227,50 +227,63 @@ The product will make use of a set of communications interface standards. They a
 \section{User Requirements}
 	\subsection{Functional User Requirement}
 		\begin{enumerate}
-			\renewcommand{\labelenumi}{{\textbf{\arabic{enumi}.}}}
-			\item User shall be able to create a new project and new team in GitGroup.
-			\item User shall be able to manage GitHub repositories and team members like add or remove repositories and members.
-			\item User shall be able to use Kanban board to organize issues by dragging issue cards among several columns representing different stage of the development processes.
-			\item User shall be able to analysis the development duration, quality and the team work situation of the project by using a variety of agile charts and analytics.
+			% \renewcommand{\labelenumi}{{\textbf{\arabic{enumi}.}}}
+			\item[\textbf{UR-1}] User shall be able to create a new project and new team in GitGroup.
+			\item[\textbf{UR-2}] User shall be able to manage GitHub repositories and team members like add or remove repositories and members.
+			\item[\textbf{UR-3}] User shall be able to use Kanban board to organize issues by dragging issue cards among several columns representing different stage of the development processes.
+			\item[\textbf{UR-4}] User shall be able to analysis the development duration, quality and the team work situation of the project by using a variety of agile charts and analytics.
 			also manage tasks like suggesting a new idea or tracking a bug. 
-			\item User shall be able to organize an online meeting group chat, schedule and record the conference within the team or the global scope.
+			\item[\textbf{UR-5}] User shall be able to organize an online meeting group chat, schedule and record the conference within the team or the global scope.
 		\end{enumerate}
 	\subsection{Non-Functional User Requirement}
 		\begin{enumerate}
-			\renewcommand{\labelenumi}{{\textbf{\arabic{enumi}.}}}
-			\item The application shall be able to make GitHub easy to use, especially friendly for the person who has little development experience such as product manager.
-			\item The application shall be quickly restored to operational status after a failure occurs.
-			\item The app shall be reliable to uses with no downtime.
-			\item The application shall be able to provide maximum security against malicious attack.
+			% \renewcommand{\labelenumi}{{\textbf{\arabic{enumi}.}}}
+			\item[\textbf{UR-6}] The application shall be able to make GitHub easy to use, especially friendly for the person who has little development experience such as product manager.
+			\item[\textbf{UR-7}] The application shall be quickly restored to operational status after a failure occurs.
+			\item[\textbf{UR-8}] The app shall be reliable to uses with no downtime.
+			\item[\textbf{UR-9}] The application shall be able to provide maximum security against malicious attack.
 		\end{enumerate}
 \section{System Requirements}
-	\subsection{Functional System Requirement}
+	\subsection{User Interfaces (Functional Requirements)}
 		\begin{enumerate}
-			\item[\textbf{1.1}] Developers can create a new project and make a team with other developers.
-			\item[\textbf{1.2}] Developers can remove a project and collaborators of the project after checking if the project is empty.
-			\item[\textbf{2.1}] Developers can manage their team by inviting to or removing collaborators from their projects.
-			\item[\textbf{2.2}] Developers can manage their repositories by adding or removing repositories of their projects.
-			\item[\textbf{3.1}] Developers can classify issues by different stages of development process via putting them in different columns of Kanban board. 
-			\item[\textbf{3.2}] Developers can add or remove a Kanban from their Kanban board.
-			\item[\textbf{3.3}] Developers can customize their own stage by editing column name except Done column.
-			\item[\textbf{3.4}]	Developers can close issues by dragging it to the Done column, which will automatically close issues in the GitHub. 
-			\item[\textbf{4.1}] Project manager can track and communicate the progress of their projects by burn down and burn up charts.
-			\item[\textbf{4.2}] Project manager can measure how much work a team can used in eXtreme Programming and Scrum from throughput chart.
-			\item[\textbf{4.3}] Project manager can analysis the velocity of project going from velocity chart.
-			\item[\textbf{5.1}] Team leader can organize an online meeting group chat within their team.
-			\item[\textbf{5.2}] Developers can organize an online meeting group chat within the global.
-			\item[\textbf{5.3}] Developers can receive a meeting notification from team leader.
-			\item[\textbf{5.4}] Developers can set an alarm for notifying the coming events on a conference schedule form.
-			\item[\textbf{5.5}] Developers shall be able to record content of meeting on a meeting notebook.
+			\item[\textbf{UI-1.1}] Developers can create a new project and make a team with other developers.
+			\item[\textbf{UI-1.2}] Developers can remove a project and collaborators of the project after checking if the project is empty.
+			\item[\textbf{UI-2.1}] Developers can manage their team by inviting to or removing collaborators from their projects.
+			\item[\textbf{UI-2.2}] Developers can manage their repositories by adding or removing repositories of their projects.
+			\item[\textbf{UI-3.1}] Developers can classify issues by different stages of development process via putting them in different columns of Kanban board. 
+			\item[\textbf{UI-3.2}] Developers can add or remove a Kanban from their Kanban board.
+			\item[\textbf{UI-3.3}] Developers can customize their own stage by editing column name except Done column.
+			\item[\textbf{UI-3.4}]	Developers can close issues by dragging it to the Done column, which will automatically close issues in the GitHub. 
+			\item[\textbf{UI-4.1}] Project manager can track the progress of their projects by burn down and burn up charts.
+			\item[\textbf{UI-4.2}] Project manager can measure how much work a team can used in extreme Programming and Scrum from throughput chart.
+			\item[\textbf{UI-4.3}] Project manager can analysis the velocity of project going from velocity chart.
+			\item[\textbf{UI-5.1}] Team leader can organize an online meeting group chat within their team.
+			\item[\textbf{UI-5.2}] Developers can organize an online meeting group chat within the global.
+			\item[\textbf{UI-5.3}] Developers can receive a meeting notification from team leader.
+			\item[\textbf{UI-5.4}] Developers can set an alarm for notifying the coming events on a conference schedule form.
+			\item[\textbf{UI-5.5}] Developers shall be able to record content of meeting on a meeting notebook.
 		\end{enumerate}
+	\subsection{Back-end Interfaces(Functional Requirements)}
+			\begin{enumerate}
+				\item[\textbf{BE-1.1}] The server shall create and store project data in database.
+				\item[\textbf{BE-1.2}] The server shall remove the project from database.
+				\item[\textbf{BE-2.1}] The server shall store the collaborator data to the project document in database.
+				\item[\textbf{BE-2.2}] The server shall get repository data from GitHub and then store the data to the project document in databse.
+				\item[\textbf{BE-3.1}] The server shall change the state of the issue cards.
+				\item[\textbf{BE-3.2}] The server shall create, store and remove the KanBan data to the project document in database.
+				\item[\textbf{BE-3.3}] The server shall create, store and remove the KanBan Column data to the KanBan document in database.
+				\item[\textbf{BE-3.4}] The server shall change the state of the cards in KanBan document.
+				\item[\textbf{BE-4.1}] The server shall return analytics data of project when user request.
+				\item[\textbf{BE-5.1}] The server shall provide chat service and provide service to create, store and remove the meeting log data.
+			\end{enumerate}
 	\subsection{Non-Functional System Requirement}
 		\begin{enumerate}
-			\item[\textbf{1.1}] The user shall be able to use all the app functions without any kind of training. The average number of questions call about how to use app shall not exceed 10 per day.
-			\item[\textbf{1.2}] The app shall be available for any kind of mobile device and PC.
-			\item[\textbf{2.1}]
-			\item[\textbf{3.1}] The app shall be available to all users during whole day (Mon-Sun, 00:00~00:00)
-			\item[\textbf{4.1}] The app shall not expose contact information to other users. 
-			\item[\textbf{4.2}] The app should minimize the amount of personally identifying information (PII) that it collects.
+			\item[\textbf{NF-6.1}] The user shall be able to use all the app functions without any kind of training. The average number of questions call about how to use app shall not exceed 10 per day.
+			\item[\textbf{NF-6.2}] The app shall be available for any kind of mobile device and PC.
+			\item[\textbf{NF-7.1}] When an fail occurs, the warning block shall display on the application window, and the page shall be navigated to the previous page or authorization page.
+			\item[\textbf{NF-8.1}] The app shall be available to all users during whole day (Mon-Sun, 00:00~00:00)
+			\item[\textbf{NF-9.1}] The app shall not expose contact information to other users. 
+			\item[\textbf{NF-9.2}] The app should minimize the amount of personally identifying information (PII) that it collects.
 		\end{enumerate}
 	
 % ------------------------------------------------------
@@ -400,10 +413,37 @@ mLab \cite{wiki:mlab} is a fully managed cloud database service that hosts Mongo
 MongoDB \cite{wiki:mongodb} is a free and open-source cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with schemata. MongoDB is developed by MongoDB Inc., and is published under a combination of the Server Side Public License and the Apache License. 
 \\
 MongoDB is used via mLab in this project. And Mongoose is chosen as the ORM(Object-relational mapping).
+\subsection{NoSQL language}\cite{parking_marketplace_srs}
+\begin{enumerate}
+	\renewcommand{\labelenumi}{{\textbf{\arabic{enumi}.}}}
+	\item It has the ability to horizontally scale by distributing the load over multiple servers.  
+	\item We don't have to think of our data in terms of rows and columns of tables. The difference in the representation in the application on disk is sometimes called impedance mismatch. In MongoDB, instead, we can think of the persisted data just as we see it in our application code; that is, as objects or documents.
+	\item It helps a programmer avoid a translation layer, whereby one has to convert or map the object that the code deal with to relational tables. Such translation are called object relational mapping (ORM).  
+\end{enumerate}
+\subsection{Document-Oriented}
+Every document in a collection has a unique identifier by which it can be accessed because the identifier is indexed automatically.
+\subsection{Schema-Less}
+Storing an object in a MongoDB database does not have to follow a prescribed schema. All documents in a collection need not have the same set of fields. MongoDB?s flexible data model also means that our database schema can evolve with business requirements. For instance, schema changes that took days of weeks in The Weather Channel's MySQL databases could be made in just hours with MongoDB.  
+\subsection{JavaScript Based}
+MongoDB?s language is JavaScript. For relational database, there is a query language called SQL. For MongoDB, the query language is based on JSON: you create, search for, make changes, and delete documents by specifying the operation in a JSON object. 
 \section{Express}
 Express, \cite{wiki:express} a web server built on Node.js, forms the middle tier or the web server. It defines routes, specifications of what to do when a HTTP request matching a certain pattern arrives. The matching specification is regular expression (regex) based and is very flexible. The what-to-do part is just a function that is given the parsed HTTP request. Express parses request URL, headers, and parameters for us. On the response side, it has, as expected, all of the functionality required by web applications including setting response codes, setting cookies, sending custom headers, etc.  
 \section{React}
 React \cite{wiki:reactjs} is a front-end technology from Facebook. It?s not a full-fledged MVC framework, but it?s a JavaScript library for building user interfaces, so in some sense it?s the view part of MVC. We use React to render a view because it tries to solve the problem from the View layer by creating abstract representations of views. It breaks down parts of the view in the Components. These components encompass both the logic to handle the display of view and the view itself. It can contain data that it uses to render the state of the app. 
+\subsection{Why use ReactJs?}\cite{parking_marketplace_srs}
+\begin{enumerate}
+	\renewcommand{\labelenumi}{{\textbf{\arabic{enumi}.}}}
+	\item DOM manipulation is the heart of the modern, interactive web. Unfortunately, it is also a lot slower than most JavaScript operations.
+	\item This slowness is made worse by the fact that most JavaScript frameworks update the DOM much more than they have to.
+	\item React views are declarative. We use it so that we don't have to worry about managing the effect of changes in the view?s state or the data, meaning we do not worry about transitions or mutations in the DOM caused by changes to the view's state.  
+\end{enumerate}
+\subsection{How does it works?}\cite{parking_marketplace_srs}
+\begin{enumerate}
+	\renewcommand{\labelenumi}{{\textbf{\arabic{enumi}.}}}
+	\item React is founded on the idea that DOM manipulation is an expensive operation and should be minimized. It also recognizes that optimizing DOM manipulation by hand will result in a lot of boilerplate code, which is error-prone, boring, and repetitive. React solves this by giving the developer a virtual DOM to render to instead of the actual DOM. It finds difference between the real DOM and virtual DOM and conducts the minimum number of DOM operations required to achieve the new state.  
+	\item When the data changes, React conceptually hits the refresh button and knows to only update the changed parts.
+  
+\end{enumerate}
 \section{NodeJs}
 NodeJs, \cite{wiki:nodejs} a server-side JavaScript runtime environment, has an asynchronous eventdriven, non-blocking input/output (I/O) model, as opposed to using threads to achieve multitasking. It relies heavily on callbacks and promises to let you know that a pending task is completed. Node.js achieves multitasking using an event-loop. This is nothing but a queue of events that need to be processed and callbacks to be run on those events. An event-based approach also makes Node.js applications fast and lets the programmer be blissfully oblivious of the semaphores and locks that are utilized to synchronize multithreaded events.  
 \section{Heroku}
