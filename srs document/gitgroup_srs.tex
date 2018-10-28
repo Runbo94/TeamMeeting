@@ -49,7 +49,7 @@
 \section{Purpose}
 The document is an official statement of what the system developers should implement. It includes both the user requirements for a system and a detailed specification of the system requirements. The document is essential for outside contractor who developing the software system. It is also useful to write a short supporting document that defines the business and dependability requirement for the system. The document is for system customers, managers, system engineers, system test engineers, system maintenance engineers.
 \section{What are GitHub APPs?}
-GitHub Apps are first-class actors within GitHub. A GitHub App acts on its own behalf, taking actions via the API directly using its own identity, which means you don't need to maintain a bot or service account as a separate user.\\
+GitHub Apps \cite{github_developer_guide} are first-class actors within GitHub. A GitHub App acts on its own behalf, taking actions via the API directly using its own identity, which means you don't need to maintain a bot or service account as a separate user.\\
 GitHub Apps can be installed directly on organizations and user accounts and granted access to specific repositories. They come with built-in webhooks and narrow, specific permissions. When you set up for your GitHub App, you can select the repositories you want it to access.\\
 Some key ideas when creating GitHub Apps
 \begin{enumerate}
@@ -183,7 +183,7 @@ The system will implement the model-view-controller software architecture patter
 \chapter{Interface Requirements}
 \section{User Interfaces}
 Thu style of GitGroup UI must be clean and easy to use. The CSS framework GitGroup choose is Bulma. It is a beautiful, lightweight and stylish CSS framework. and its grid is fully built with flexbox. Achieving flexible layout with same-size columns is as simple as adding \textbf{.column} class to HTML element. Furthermore, Bulma has some GitHub design style component like panel. It can be easy reuse to build GitGroup project lists.\\
-The icon set and toolkits chose for GitGroup is Font Awesome. Font Awesome is a font and icon toolkit based on CSS and LESS. It was made by Dave Gandy for use with Twitter Bootstrap, and later was incorporated into the BootstrapCDN. Font Awesome has a 20% market share among those websites which use third-party Font Scripts on their platform, ranking it second place after Google Fonts.
+The icon set and toolkits chose for GitGroup is Font Awesome. Font Awesome is a font and icon toolkit based on CSS and LESS. It was made by Dave Gandy for use with Twitter Bootstrap, and later was incorporated into the BootstrapCDN. Font Awesome \cite{wiki:fontawesome} has a 20\% market share among those websites which use third-party Font Scripts on their platform, ranking it second place after Google Fonts.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.6\textwidth]{./pics/OverviewInterface.png}
@@ -206,12 +206,12 @@ The Kanban board is set of columns that allow you to track the progress of tasks
 \end{figure}
 The Chart UI is easy and understandable. The main part shows different charts and you can change them via buttons on the tool bar.
 \section{Hardware Interfaces}
-Owing to the responsive nature of the product, it would require nothing more than a simple browser installed on a mobile phone, a tablet or a personal computer. A reasonable amount of RAM on the device would be enough to support the browser and the associated product.
+Owing to the responsive nature of the product, it would require nothing more than a simple browser installed on a mobile phone, a tablet or a personal computer. A reasonable amount of RAM on the device would be enough to support the browser and the associated product. \cite{parking_marketplace_srs}
 \section{Software Interfaces}
 The product will use certain 3rd party libraries or api?s to supplement overall system functionality. The google maps api is used for geocoding street addresses to geographical coordinates that can be used to place markers on the map. These markers provide visual representation for locating parking spaces for drivers. Api?s for financial transactions will be used by the product for booking spots. Communication between the core-application and the api implementation normally happens through SOAP messages.  \\
-Software interacts with the database using JSON objects. MongoDB, the primary database vendor stores these objects in binary encoded form called BSON (or Binary JSON). The underlying operating system that runs the application server (web host) will be Linux. 
+Software interacts with the database using JSON objects. MongoDB, the primary database vendor stores these objects in binary encoded form called BSON (or Binary JSON). The underlying operating system that runs the application server (web host) will be Linux. \cite{parking_marketplace_srs}
 \section{Communication Interfaces}
-The product will make use of a set of communications interface standards. They are summarized below,
+The product will make use of a set of communications interface standards. They are summarized below. \cite{parking_marketplace_srs}
 \begin{enumerate}
 	\renewcommand{\labelenumi}{{\textbf{\arabic{enumi}.}}}
 	\item Emails are sent to drivers when a booking has been made. Similarly, owners receive booking information through email when drivers reserve parking spots. These features depend on application layer protocols like SMTP and IMAP for their implementation.
@@ -286,9 +286,9 @@ A use case diagram at its simplest is a representation of a user's interaction w
 \end{figure}
 \subsection{KanBan}
 The Kanban board which is similar to projects board in the Gitub. In the Kanban board, there are several columns represent different stage of the developement process, such as TODO, Ready, In Progress, Done... You can customize your own stage. Both owner and collaborators can access KanBan, However the owner has higher privilege.\\
-Every column contains issue card imported from the Github, and you can easily drug them among the columns. If you drug it to the Done column. The issue in the Github will be automatically closed.
+Every column contains issue card imported from the Github, and you can easily drug them among the columns. If you drug it to the Done column. The issue in the Github will be automatically closed.\cite{zube}
 \subsection{Chart}
-GitGroup offers a variety of Agile charts and analytics to help you keep track of how your team is doing. Both owner and collaborators can view these charts.
+GitGroup offers a variety of Agile charts and analytics to help you keep track of how your team is doing. Both owner and collaborators can view these charts.\cite{zube}
 \begin{enumerate}
 	\renewcommand{\labelenumi}{{\textbf{\arabic{enumi}.}}}
 	\item Burndown and Burnup Charts\\
@@ -391,23 +391,23 @@ KanBan, KanBanColumn and Card class are key classes for KanBan board functionali
 	\caption{GitGroup System Architecture}
 \end{figure}
 \section{TypeScript}
-TypeScript is an open-source programming language developed and maintained by Microsoft. It is a strict syntactical superset of JavaScript, and adds optional static typing to the language. \\
+TypeScript \cite{wiki:typescript} is an open-source programming language developed and maintained by Microsoft. It is a strict syntactical superset of JavaScript, and adds optional static typing to the language. \\
 TypeScript is used to develop GitGroup because its strong Object-Oriented-Programming features.\\
 TypeScript is designed for development of large applications and transcompiles to JavaScript.As TypeScript is a superset of JavaScript, existing JavaScript programs are also valid TypeScript programs. TypeScript may be used to develop JavaScript applications for both client-side and server-side (Node.js) execution.\\
 \section{mLab}
-mLab is a fully managed cloud database service that hosts MongoDB databases. mLab runs on cloud providers Amazon, Google, and Microsoft Azure, and has partnered with platform-as-a-service providers. 
+mLab \cite{wiki:mlab} is a fully managed cloud database service that hosts MongoDB databases. mLab runs on cloud providers Amazon, Google, and Microsoft Azure, and has partnered with platform-as-a-service providers. 
 \section{MongoDB}
-MongoDB is a free and open-source cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with schemata. MongoDB is developed by MongoDB Inc., and is published under a combination of the Server Side Public License and the Apache License. 
+MongoDB \cite{wiki:mongodb} is a free and open-source cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with schemata. MongoDB is developed by MongoDB Inc., and is published under a combination of the Server Side Public License and the Apache License. 
 \\
 MongoDB is used via mLab in this project. And Mongoose is chosen as the ORM(Object-relational mapping).
 \section{Express}
-Express, a web server built on Node.js, forms the middle tier or the web server. It defines routes, specifications of what to do when a HTTP request matching a certain pattern arrives. The matching specification is regular expression (regex) based and is very flexible. The what-to-do part is just a function that is given the parsed HTTP request. Express parses request URL, headers, and parameters for us. On the response side, it has, as expected, all of the functionality required by web applications including setting response codes, setting cookies, sending custom headers, etc.  
+Express, \cite{wiki:express} a web server built on Node.js, forms the middle tier or the web server. It defines routes, specifications of what to do when a HTTP request matching a certain pattern arrives. The matching specification is regular expression (regex) based and is very flexible. The what-to-do part is just a function that is given the parsed HTTP request. Express parses request URL, headers, and parameters for us. On the response side, it has, as expected, all of the functionality required by web applications including setting response codes, setting cookies, sending custom headers, etc.  
 \section{React}
-React is a front-end technology from Facebook. It?s not a full-fledged MVC framework, but it?s a JavaScript library for building user interfaces, so in some sense it?s the view part of MVC. We use React to render a view because it tries to solve the problem from the View layer by creating abstract representations of views. It breaks down parts of the view in the Components. These components encompass both the logic to handle the display of view and the view itself. It can contain data that it uses to render the state of the app. 
+React \cite{wiki:reactjs} is a front-end technology from Facebook. It?s not a full-fledged MVC framework, but it?s a JavaScript library for building user interfaces, so in some sense it?s the view part of MVC. We use React to render a view because it tries to solve the problem from the View layer by creating abstract representations of views. It breaks down parts of the view in the Components. These components encompass both the logic to handle the display of view and the view itself. It can contain data that it uses to render the state of the app. 
 \section{NodeJs}
-NodeJs, a server-side JavaScript runtime environment, has an asynchronous eventdriven, non-blocking input/output (I/O) model, as opposed to using threads to achieve multitasking. It relies heavily on callbacks and promises to let you know that a pending task is completed. Node.js achieves multitasking using an event-loop. This is nothing but a queue of events that need to be processed and callbacks to be run on those events. An event-based approach also makes Node.js applications fast and lets the programmer be blissfully oblivious of the semaphores and locks that are utilized to synchronize multithreaded events.  
+NodeJs, \cite{wiki:nodejs} a server-side JavaScript runtime environment, has an asynchronous eventdriven, non-blocking input/output (I/O) model, as opposed to using threads to achieve multitasking. It relies heavily on callbacks and promises to let you know that a pending task is completed. Node.js achieves multitasking using an event-loop. This is nothing but a queue of events that need to be processed and callbacks to be run on those events. An event-based approach also makes Node.js applications fast and lets the programmer be blissfully oblivious of the semaphores and locks that are utilized to synchronize multithreaded events.  
 \section{Heroku}
-Heroku is a cloud platform as a service (PaaS) supporting several programming languages. Heroku, one of the first cloud platforms, has been in development since June 2007, when it supported only the Ruby programming language, but now supports Java, Node.js, Scala, Clojure, Python, PHP, and Go.\\
+Heroku \cite{wiki:heroku} is a cloud platform as a service (PaaS) supporting several programming languages. Heroku, one of the first cloud platforms, has been in development since June 2007, when it supported only the Ruby programming language, but now supports Java, Node.js, Scala, Clojure, Python, PHP, and Go.\\
 In this project, Heroku is the platform where GitGroup is deployed to.
 
 

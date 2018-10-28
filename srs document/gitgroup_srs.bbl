@@ -1,3 +1,285 @@
 \begin{thebibliography}{}
 
+\bibitem [\protect \citeauthoryear {%
+{Daniel Jonathan Kemp (Team leader), Jinwoo Song, Pratheek Basavana Gowda,
+  Rajesh Ramesh, Rahul Vijaydev, Theerut Foongkiatcharoen, Vibhu A Bharadwaj}%
+}{%
+{Daniel Jonathan Kemp (Team leader), Jinwoo Song, Pratheek Basavana Gowda,
+  Rajesh Ramesh, Rahul Vijaydev, Theerut Foongkiatcharoen, Vibhu A Bharadwaj}%
+}{%
+{\protect \APACyear {2018}}%
+}]{%
+parking_marketplace_srs}
+\APACinsertmetastar {%
+parking_marketplace_srs}%
+\begin{APACrefauthors}%
+{Daniel Jonathan Kemp (Team leader), Jinwoo Song, Pratheek Basavana Gowda,
+  Rajesh Ramesh, Rahul Vijaydev, Theerut Foongkiatcharoen, Vibhu A Bharadwaj}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+\APACrefbtitle {{SRS: Parking Marketplace}} {{SRS: Parking Marketplace}}\
+  \APACbVolEdTR{}{\BTR{}}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{GitHub Inc.}%
+}{%
+{GitHub Inc.}%
+}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+github_developer_guide}
+\APACinsertmetastar {%
+github_developer_guide}%
+\begin{APACrefauthors}%
+{GitHub Inc.}%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\APACrefbtitle {GitHub API v3 | GitHub Developer Guide.} {Github api v3 |
+  github developer guide.}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Wikipedia contributors}%
+}{%
+{Wikipedia contributors}%
+}{%
+{\protect \APACyear {2018}}%
+{\protect \APACexlab {{\protect \BCnt {1}}}}}]{%
+wiki:express}
+\APACinsertmetastar {%
+wiki:express}%
+\begin{APACrefauthors}%
+{Wikipedia contributors}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018{\protect \BCnt {1}}}{}{}.
+\newblock
+\APACrefbtitle {Express.js --- {Wikipedia}{,} The Free Encyclopedia.}
+  {Express.js --- {Wikipedia}{,} the free encyclopedia.}
+\newblock
+\begin{APACrefURL}
+  \url{https://en.wikipedia.org/w/index.php?title=Express.js&oldid=861000326}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{[Online; accessed 28-October-2018]}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Wikipedia contributors}%
+}{%
+{Wikipedia contributors}%
+}{%
+{\protect \APACyear {2018}}%
+{\protect \APACexlab {{\protect \BCnt {2}}}}}]{%
+wiki:fontawesome}
+\APACinsertmetastar {%
+wiki:fontawesome}%
+\begin{APACrefauthors}%
+{Wikipedia contributors}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018{\protect \BCnt {2}}}{}{}.
+\newblock
+\APACrefbtitle {Font Awesome --- {Wikipedia}{,} The Free Encyclopedia.} {Font
+  awesome --- {Wikipedia}{,} the free encyclopedia.}
+\newblock
+\begin{APACrefURL}
+  \url{https://en.wikipedia.org/w/index.php?title=Font_Awesome&oldid=862582036}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{[Online; accessed 28-October-2018]}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Wikipedia contributors}%
+}{%
+{Wikipedia contributors}%
+}{%
+{\protect \APACyear {2018}}%
+{\protect \APACexlab {{\protect \BCnt {3}}}}}]{%
+wiki:heroku}
+\APACinsertmetastar {%
+wiki:heroku}%
+\begin{APACrefauthors}%
+{Wikipedia contributors}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018{\protect \BCnt {3}}}{}{}.
+\newblock
+\APACrefbtitle {Heroku --- {Wikipedia}{,} The Free Encyclopedia.} {Heroku ---
+  {Wikipedia}{,} the free encyclopedia.}
+\newblock
+\begin{APACrefURL}
+  \url{https://en.wikipedia.org/w/index.php?title=Heroku&oldid=855032748}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{[Online; accessed 28-October-2018]}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Wikipedia contributors}%
+}{%
+{Wikipedia contributors}%
+}{%
+{\protect \APACyear {2018}}%
+{\protect \APACexlab {{\protect \BCnt {4}}}}}]{%
+wiki:mlab}
+\APACinsertmetastar {%
+wiki:mlab}%
+\begin{APACrefauthors}%
+{Wikipedia contributors}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018{\protect \BCnt {4}}}{}{}.
+\newblock
+\APACrefbtitle {MLab --- {Wikipedia}{,} The Free Encyclopedia.} {Mlab ---
+  {Wikipedia}{,} the free encyclopedia.}
+\newblock
+\begin{APACrefURL}
+  \url{https://en.wikipedia.org/w/index.php?title=MLab&oldid=863362348}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{[Online; accessed 28-October-2018]}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Wikipedia contributors}%
+}{%
+{Wikipedia contributors}%
+}{%
+{\protect \APACyear {2018}}%
+{\protect \APACexlab {{\protect \BCnt {5}}}}}]{%
+wiki:mongodb}
+\APACinsertmetastar {%
+wiki:mongodb}%
+\begin{APACrefauthors}%
+{Wikipedia contributors}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018{\protect \BCnt {5}}}{}{}.
+\newblock
+\APACrefbtitle {MongoDB --- {Wikipedia}{,} The Free Encyclopedia.} {Mongodb ---
+  {Wikipedia}{,} the free encyclopedia.}
+\newblock
+\begin{APACrefURL}
+  \url{https://en.wikipedia.org/w/index.php?title=MongoDB&oldid=864580817}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{[Online; accessed 28-October-2018]}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Wikipedia contributors}%
+}{%
+{Wikipedia contributors}%
+}{%
+{\protect \APACyear {2018}}%
+{\protect \APACexlab {{\protect \BCnt {6}}}}}]{%
+wiki:nodejs}
+\APACinsertmetastar {%
+wiki:nodejs}%
+\begin{APACrefauthors}%
+{Wikipedia contributors}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018{\protect \BCnt {6}}}{}{}.
+\newblock
+\APACrefbtitle {Node.js --- {Wikipedia}{,} The Free Encyclopedia.} {Node.js ---
+  {Wikipedia}{,} the free encyclopedia.}
+\newblock
+\begin{APACrefURL}
+  \url{https://en.wikipedia.org/w/index.php?title=Node.js&oldid=865979769}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{[Online; accessed 28-October-2018]}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Wikipedia contributors}%
+}{%
+{Wikipedia contributors}%
+}{%
+{\protect \APACyear {2018}}%
+{\protect \APACexlab {{\protect \BCnt {7}}}}}]{%
+wiki:reactjs}
+\APACinsertmetastar {%
+wiki:reactjs}%
+\begin{APACrefauthors}%
+{Wikipedia contributors}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018{\protect \BCnt {7}}}{}{}.
+\newblock
+\APACrefbtitle {React (JavaScript library) --- {Wikipedia}{,} The Free
+  Encyclopedia.} {React (javascript library) --- {Wikipedia}{,} the free
+  encyclopedia.}
+\newblock
+\begin{APACrefURL}
+  \url{https://en.wikipedia.org/w/index.php?title=React_(JavaScript_library)&oldid=865980729}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{[Online; accessed 28-October-2018]}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Wikipedia contributors}%
+}{%
+{Wikipedia contributors}%
+}{%
+{\protect \APACyear {2018}}%
+{\protect \APACexlab {{\protect \BCnt {8}}}}}]{%
+wiki:typescript}
+\APACinsertmetastar {%
+wiki:typescript}%
+\begin{APACrefauthors}%
+{Wikipedia contributors}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018{\protect \BCnt {8}}}{}{}.
+\newblock
+\APACrefbtitle {TypeScript --- {Wikipedia}{,} The Free Encyclopedia.}
+  {Typescript --- {Wikipedia}{,} the free encyclopedia.}
+\newblock
+\begin{APACrefURL}
+  \url{https://en.wikipedia.org/w/index.php?title=TypeScript&oldid=864413390}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{[Online; accessed 28-October-2018]}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Zube team}%
+}{%
+{Zube team}%
+}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+zube}
+\APACinsertmetastar {%
+zube}%
+\begin{APACrefauthors}%
+{Zube team}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\APACrefbtitle {Zube documentation.} {Zube documentation.}
+\PrintBackRefs{\CurrentBib}
+
 \end{thebibliography}
