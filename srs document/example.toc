@@ -33,15 +33,15 @@
 \contentsline {subsection}{\numberline {5.1.1}KanBan}{13}{subsection.5.1.1}
 \contentsline {subsection}{\numberline {5.1.2}Chart}{14}{subsection.5.1.2}
 \contentsline {subsection}{\numberline {5.1.3}Chat}{14}{subsection.5.1.3}
-\contentsline {section}{\numberline {5.2}Activity Diagram}{14}{section.5.2}
-\contentsline {section}{\numberline {5.3}Sequence Diagram}{16}{section.5.3}
-\contentsline {section}{\numberline {5.4}Class Diagram}{18}{section.5.4}
-\contentsline {chapter}{\numberline {6}System Architecture}{19}{chapter.6}
-\contentsline {section}{\numberline {6.1}TypeScript}{19}{section.6.1}
-\contentsline {section}{\numberline {6.2}mLab}{20}{section.6.2}
-\contentsline {section}{\numberline {6.3}MongoDB}{20}{section.6.3}
-\contentsline {section}{\numberline {6.4}Express}{20}{section.6.4}
-\contentsline {section}{\numberline {6.5}React}{20}{section.6.5}
-\contentsline {section}{\numberline {6.6}NodeJs}{20}{section.6.6}
-\contentsline {section}{\numberline {6.7}Heroku}{20}{section.6.7}
-\contentsline {chapter}{\numberline {A}Figures}{22}{appendix.A}
+\contentsline {section}{\numberline {5.2}Activity Diagram}{15}{section.5.2}
+\contentsline {section}{\numberline {5.3}Sequence Diagram}{17}{section.5.3}
+\contentsline {section}{\numberline {5.4}Class Diagram}{19}{section.5.4}
+\contentsline {chapter}{\numberline {6}System Architecture}{20}{chapter.6}
+\contentsline {section}{\numberline {6.1}TypeScript}{20}{section.6.1}
+\contentsline {section}{\numberline {6.2}mLab}{21}{section.6.2}
+\contentsline {section}{\numberline {6.3}MongoDB}{21}{section.6.3}
+\contentsline {section}{\numberline {6.4}Express}{21}{section.6.4}
+\contentsline {section}{\numberline {6.5}React}{21}{section.6.5}
+\contentsline {section}{\numberline {6.6}NodeJs}{21}{section.6.6}
+\contentsline {section}{\numberline {6.7}Heroku}{21}{section.6.7}
+\contentsline {chapter}{\numberline {A}Figures}{23}{appendix.A}
