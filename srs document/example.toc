@@ -1,43 +1,47 @@
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Purpose}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}What are GitHub APPs?}{1}{section.1.2}
-\contentsline {section}{\numberline {1.3}Product Scope}{1}{section.1.3}
-\contentsline {section}{\numberline {1.4}Def., Acronyms and Abbr.}{2}{section.1.4}
-\contentsline {section}{\numberline {1.5}Overview of The Document}{2}{section.1.5}
-\contentsline {chapter}{\numberline {2}Overall Description}{3}{chapter.2}
-\contentsline {section}{\numberline {2.1}Product Perspective}{3}{section.2.1}
-\contentsline {section}{\numberline {2.2}Product Functions}{3}{section.2.2}
-\contentsline {section}{\numberline {2.3}User Characteristic}{4}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}For Owner}{4}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}For Collaborator}{4}{subsection.2.3.2}
-\contentsline {section}{\numberline {2.4}Operating Environment}{4}{section.2.4}
-\contentsline {section}{\numberline {2.5}Design And Implementation Constraints}{4}{section.2.5}
-\contentsline {section}{\numberline {2.6}Assumptions And Dependencies}{4}{section.2.6}
-\contentsline {subsection}{\numberline {2.6.1}Assumptions}{4}{subsection.2.6.1}
-\contentsline {subsection}{\numberline {2.6.2}Dependencies}{4}{subsection.2.6.2}
-\contentsline {chapter}{\numberline {3}Interface Requirements}{5}{chapter.3}
-\contentsline {section}{\numberline {3.1}User Interfaces}{5}{section.3.1}
-\contentsline {section}{\numberline {3.2}Hardware Interfaces}{7}{section.3.2}
-\contentsline {section}{\numberline {3.3}Software Interfaces}{7}{section.3.3}
-\contentsline {section}{\numberline {3.4}Communication Interfaces}{7}{section.3.4}
-\contentsline {chapter}{\numberline {4}Requirements}{8}{chapter.4}
-\contentsline {section}{\numberline {4.1}User Requirements}{8}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Functional User Requirement}{8}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Non-Functional User Requirement}{8}{subsection.4.1.2}
-\contentsline {section}{\numberline {4.2}System Requirements}{8}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Functional System Requirement}{8}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Non-Functional System Requirement}{9}{subsection.4.2.2}
-\contentsline {chapter}{\numberline {5}System Models}{10}{chapter.5}
-\contentsline {section}{\numberline {5.1}Use Case Diagram}{10}{section.5.1}
-\contentsline {section}{\numberline {5.2}Activity Diagram}{11}{section.5.2}
-\contentsline {section}{\numberline {5.3}Sequence Diagram}{12}{section.5.3}
-\contentsline {section}{\numberline {5.4}Class Diagram}{14}{section.5.4}
-\contentsline {chapter}{\numberline {6}System Architecture}{15}{chapter.6}
-\contentsline {section}{\numberline {6.1}TypeScript}{15}{section.6.1}
-\contentsline {section}{\numberline {6.2}mLab}{16}{section.6.2}
-\contentsline {section}{\numberline {6.3}MongoDB}{16}{section.6.3}
-\contentsline {section}{\numberline {6.4}Express}{16}{section.6.4}
-\contentsline {section}{\numberline {6.5}React}{16}{section.6.5}
-\contentsline {section}{\numberline {6.6}NodeJs}{16}{section.6.6}
-\contentsline {section}{\numberline {6.7}Heroku}{16}{section.6.7}
-\contentsline {chapter}{\numberline {A}Figures}{18}{appendix.A}
+\contentsline {section}{\numberline {1.3}Product Scope}{2}{section.1.3}
+\contentsline {section}{\numberline {1.4}Def., Acronyms and Abbr.}{3}{section.1.4}
+\contentsline {section}{\numberline {1.5}Overview of The Document}{3}{section.1.5}
+\contentsline {chapter}{\numberline {2}Overall Description}{4}{chapter.2}
+\contentsline {section}{\numberline {2.1}Product Perspective}{4}{section.2.1}
+\contentsline {section}{\numberline {2.2}Product Functions}{4}{section.2.2}
+\contentsline {section}{\numberline {2.3}User Characteristic}{5}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}For Every User}{5}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}For Collaborator}{5}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}For Owner}{5}{subsection.2.3.3}
+\contentsline {section}{\numberline {2.4}Operating Environment}{6}{section.2.4}
+\contentsline {section}{\numberline {2.5}Design And Implementation Constraints}{6}{section.2.5}
+\contentsline {section}{\numberline {2.6}Assumptions And Dependencies}{6}{section.2.6}
+\contentsline {subsection}{\numberline {2.6.1}Assumptions}{6}{subsection.2.6.1}
+\contentsline {subsection}{\numberline {2.6.2}Dependencies}{6}{subsection.2.6.2}
+\contentsline {chapter}{\numberline {3}Interface Requirements}{7}{chapter.3}
+\contentsline {section}{\numberline {3.1}User Interfaces}{7}{section.3.1}
+\contentsline {section}{\numberline {3.2}Hardware Interfaces}{9}{section.3.2}
+\contentsline {section}{\numberline {3.3}Software Interfaces}{9}{section.3.3}
+\contentsline {section}{\numberline {3.4}Communication Interfaces}{9}{section.3.4}
+\contentsline {chapter}{\numberline {4}Requirements}{11}{chapter.4}
+\contentsline {section}{\numberline {4.1}User Requirements}{11}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Functional User Requirement}{11}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Non-Functional User Requirement}{11}{subsection.4.1.2}
+\contentsline {section}{\numberline {4.2}System Requirements}{11}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Functional System Requirement}{11}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Non-Functional System Requirement}{12}{subsection.4.2.2}
+\contentsline {chapter}{\numberline {5}System Models}{13}{chapter.5}
+\contentsline {section}{\numberline {5.1}Use Case Diagram}{13}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}KanBan}{13}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Chart}{14}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Chat}{14}{subsection.5.1.3}
+\contentsline {section}{\numberline {5.2}Activity Diagram}{14}{section.5.2}
+\contentsline {section}{\numberline {5.3}Sequence Diagram}{16}{section.5.3}
+\contentsline {section}{\numberline {5.4}Class Diagram}{18}{section.5.4}
+\contentsline {chapter}{\numberline {6}System Architecture}{19}{chapter.6}
+\contentsline {section}{\numberline {6.1}TypeScript}{19}{section.6.1}
+\contentsline {section}{\numberline {6.2}mLab}{20}{section.6.2}
+\contentsline {section}{\numberline {6.3}MongoDB}{20}{section.6.3}
+\contentsline {section}{\numberline {6.4}Express}{20}{section.6.4}
+\contentsline {section}{\numberline {6.5}React}{20}{section.6.5}
+\contentsline {section}{\numberline {6.6}NodeJs}{20}{section.6.6}
+\contentsline {section}{\numberline {6.7}Heroku}{20}{section.6.7}
+\contentsline {chapter}{\numberline {A}Figures}{22}{appendix.A}

@@ -41,7 +41,7 @@
 \pagestyle{fancy}
 
 % ----------------------------------------------------
-% Chapter Introduction
+% Chapter 1 Introduction
 % ----------------------------------------------------
 
 \chapter{Introduction}
@@ -60,6 +60,18 @@ Some key ideas when creating GitHub Apps
 	\item Don't use a GitHub App if you just need a "Login with GitHub" service. But a GitHub App can use a user identification flow to log users in and do other things.
 	\item Don't build a GitHub App if you only want to act as a GitHub user and do everything that user can do.
 \end{enumerate}
+GitHub Marketplace contains tools and services that complement and improve workflow. Anyone can discover, browse, and install free and paid GitHub App and OAuth Apps in GitHub Marketplace.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{./pics/githubMarket.png}
+	\caption{GitHub Marketplace}
+\end{figure}
+The following is the home page of GitGroup in GitHub.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{./pics/gitgrouphomepage.png}
+	\caption{GitHub Marketplace}
+\end{figure}
 \section{Product Scope}
 GitGroup is a web-based GitHub Application. It is a project management platform that allows everyone on your team to communicate with the developers. Therefore, GitGroup is not only designed for programmer but also for people who has less development experience such as project manager, project members and people who are related to the project. On GitGroup, it is easy to create an Agile workflow for your team with a kanban board. GitGroup?s seamless integration with GitHub keeps all of your GitHub Issue data in sync across both platforms in real time.
 It is an easy access web-based application that served for product management team based on Github API.\\
@@ -86,7 +98,9 @@ From the perspective of framework. ReactJS(Front end framework), Bulma(CSS frame
 \section{Overview of The Document}
 The rest of the document will include overall description of Gitgroup in following perspectives. Product perspective, product functions, user characteristics, operating environment, design and implementation constraints, assumptions and dependencies. For interface requirement, we put efforts on user interfaces, hardware interfaces, software interfaces and communications interfaces. we will also include requirements like user requirements, system requirements, functional requirements, non-functional requirements and system models like use case diagram, activity diagram, sequence diagram, class diagram, system architecture, web design. 
 
+% ----------------------------------------------------------
 % Chapter 2 Overall Description
+% ----------------------------------------------------------
 \chapter{Overall Description}
 This section of the SRS will include general factors that affect the product and its requirements. This section does not state specific requirements. Instead, it provides a background for those requirements, which are defined in detail in Section 3 of the SRS, and makes them easier to understand. 
 \section{Product Perspective}
@@ -95,50 +109,110 @@ The background of the Gitgroup coming from project managers are often busy to ma
 Our product focus on easy access, clearly, convenience, efficiency. Fuctions are surrounded our goals. Mainly function lists in the following.
 \begin{enumerate}
 	\renewcommand{\labelenumi}{{\textbf{\arabic{enumi}.}}}
-	\item Online meeting: Online meeting group chat. Record the conference. Make conference scheduling form and alarming the coming meeting. 
-	\item Task management: The function is Like GitHub task management, but Gitgroup has better UI design. Make TODO list also included in task management, users create an issue to suggest a new idea or track a bug by means of setting up a TODO list. Then user can organize and assign tasks to their team members. 
-	\item Developer grading system: Record the working of any team member. According the performance of users in all team which he joined, get users a grade.
-	\item Developer finding system: If you are a team leader, you can find a perfect developer who has related skill to your project. If you are a software developer, you can post your information to find suitable project for you.
+
+	\item KanBan:
+	The Kanban board which is similar to projects board in the Gitub. In the Kanban board, there are several columns represent different stage of the developement process. You can customize your own stage. Every column contains issue card imported from the Github, and you can easily drug them among the columns. If you drug it to the Done column. The issue in the Github will be automatically closed.
+	\item Chart - Project Analytics: 
+	GitGroup offers a variety of Agile charts and analytics to help you keep track of how your team is doing. 
+	\item Online Meeting and Chatting: 
+	Online meeting group chat. Record the conference. Make conference scheduling form and alarming the coming meeting. GitGroup offers chat room for users to communication. There are two types of chat. One is global chat which is used to communicate friends directly. Another is in-team chat which is used to communicate among the team members. for you.
 \end{enumerate}
 
 \section{User Characteristic}
-A high-level diagrammatic representation of the user activity is depicted below 
-	\subsection{For Owner}
+First of all, every use can create their own projects. If they are in their own projects, they are owners, verse and vice, they are collaborator. Therefore, one user can be both owner and collaborator according the project they are managing.\\
+After entering a project, GitGroup will consist of 2 user flows, one for the owner of project, and the other for the collaborator. A high-level summary of the most important features offered by the system with respect to each of these users are as follows, 
+	\subsection{For Every User}
+	\begin{enumerate}
+	\renewcommand{\labelenumi}{{\textbf{\arabic{enumi}.}}}
+	\item Every user can create their own project.
+	\item Every user can use global chat to communicate all your friends directly.
+	\item Every user can get notification from system or other users.
+	\item Every user can view and edit their own personal profile.
+\end{enumerate}	 
 	\subsection{For Collaborator}
+	\begin{enumerate}
+		\renewcommand{\labelenumi}{{\textbf{\arabic{enumi}.}}}
+		\item The collaborator can enter the KanBan board. In the KanBan board, they can add cards, drug and move current cards, edit the content of cards.
+		\item The collaborator can view the analytics which is different types of charts. to help keep track of how your team is doing.
+		\item The collaborator can use in-team chat to communicate with other developers in the team.
+	\end{enumerate}
+	\subsection{For Owner}
+	\begin{enumerate}
+		\renewcommand{\labelenumi}{{\textbf{\arabic{enumi}.}}}
+		\item The owner can do anything the collaborators can do.
+		\item The owner can invite other user to your project as collaborator.
+		\item The owner can remove any collaborators in your project.
+		\item The owner can add any your GitHub repositories to your project.
+		\item The owner can remove any GitHub repositories in your project.
+		\item The owner can add new KanBans in your KanBan board.
+		\item The owner can remove any KanBans in your KanBan board.
+		\item The owner can add new columns to any Kanbans and remove add columns in Kanban.
+	\end{enumerate}
 \section{Operating Environment}
-
+The system will implement the model-view-controller software architecture pattern. The operating environment for the system consists of a browser that renders web pages, an external web server that handles user request-response transactions, an authentication and authorization server as well as a database for storing application data. Servers with reasonable load handling capacity will be sufficient for web hosting and data storage. Central administration is vested in the web/application server. 
 \section{Design And Implementation Constraints}
+\begin{enumerate}
+	\renewcommand{\labelenumi}{{\textbf{\arabic{enumi}.}}}
+	\item One of the key constraints of the system is the inherent reliability on an internet connection. Since the product is implemented using the client-server model, it is imperative to have an active internet connection.  
+\end{enumerate}
 \section{Assumptions And Dependencies}
 	\subsection{Assumptions}
+	\begin{enumerate}
+		\renewcommand{\labelenumi}{{\textbf{\arabic{enumi}.}}}
+		\item Since the system will be deployed using a cloud based hosting service, an assumption about its continuous, uninterrupted availability is made.   
+		\item The system will depend on a trusted third party financial institution for handling monetary transactions. Hence, an assumption about total financial security is made. 
+	\end{enumerate}
 	\subsection{Dependencies}
+		\begin{enumerate}
+		\renewcommand{\labelenumi}{{\textbf{\arabic{enumi}.}}}
+		\item The system will rely heavily on frameworks for user interface development, routing and data handling.   
+	\end{enumerate}
 
 % -----------------------------------------------------
-% Chapter Interface Requirement
+% Chapter 3 Interface Requirement
 % -----------------------------------------------------
 \chapter{Interface Requirements}
 \section{User Interfaces}
+Thu style of GitGroup UI must be clean and easy to use. The CSS framework GitGroup choose is Bulma. It is a beautiful, lightweight and stylish CSS framework. and its grid is fully built with flexbox. Achieving flexible layout with same-size columns is as simple as adding \textbf{.column} class to HTML element. Furthermore, Bulma has some GitHub design style component like panel. It can be easy reuse to build GitGroup project lists.\\
+The icon set and toolkits chose for GitGroup is Font Awesome. Font Awesome is a font and icon toolkit based on CSS and LESS. It was made by Dave Gandy for use with Twitter Bootstrap, and later was incorporated into the BootstrapCDN. Font Awesome has a 20% market share among those websites which use third-party Font Scripts on their platform, ranking it second place after Google Fonts.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.6\textwidth]{./pics/OverviewInterface.png}
 	\caption{Overview User Interface (Details in Appendix A)}
 \end{figure}
+The overview is the home page of GitGroup. Because our design aim is ease and simple, all the important information should display on this main page. The main navigation bar shows the personal information. and the second navigation bar is used for navigate among the Overview, Kanban, Chart and Documentation page. The next line is the tool bar, all the tool button should be here. Specially, the left side in this line is the bread crumb which is used to improve the navigation experience. 
+The most important part is the workspace which is divided into 3 parts. The left side bar is the Project list where users can search, choose, edit, add and remove project. The combination of the project list and second navigation bar, which is called two-dimension navigation, is stronger, more accurate. \\
+The middle part of workspace is user's current status, and it is shown as some diagrams and charts.\\
+The right side bar is all the to-do things including cards which are close to deadline, message and meeting log.\\
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.6\textwidth]{./pics/KanbanInterface.png}
 	\caption{KanBan User Interface (Details in Appendix A)}
 \end{figure}
+The Kanban board is set of columns that allow you to track the progress of tasks as they move through your workflow. The GitGroup Kanban board default columns are Inbox, Backlog, Ready, In Progress, In Review and Done. Cards that are newly added to the Workspace (such as when an issue is made on GitHub) will go into the Inbox column by default. Cards that are moved into the Done column on GitGroup will be automatically closed and cards closed via GitHub will be automatically moved into the Done column. And the right top of Kanban board shows the due day of this KanBan. 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.6\textwidth]{./pics/ChartInterface.png}
 	\caption{Chart User Interface (Details in Appendix A)}
 \end{figure}
+The Chart UI is easy and understandable. The main part shows different charts and you can change them via buttons on the tool bar.
 \section{Hardware Interfaces}
+Owing to the responsive nature of the product, it would require nothing more than a simple browser installed on a mobile phone, a tablet or a personal computer. A reasonable amount of RAM on the device would be enough to support the browser and the associated product.
 \section{Software Interfaces}
+The product will use certain 3rd party libraries or api?s to supplement overall system functionality. The google maps api is used for geocoding street addresses to geographical coordinates that can be used to place markers on the map. These markers provide visual representation for locating parking spaces for drivers. Api?s for financial transactions will be used by the product for booking spots. Communication between the core-application and the api implementation normally happens through SOAP messages.  \\
+Software interacts with the database using JSON objects. MongoDB, the primary database vendor stores these objects in binary encoded form called BSON (or Binary JSON). The underlying operating system that runs the application server (web host) will be Linux. 
 \section{Communication Interfaces}
+The product will make use of a set of communications interface standards. They are summarized below,
+\begin{enumerate}
+	\renewcommand{\labelenumi}{{\textbf{\arabic{enumi}.}}}
+	\item Emails are sent to drivers when a booking has been made. Similarly, owners receive booking information through email when drivers reserve parking spots. These features depend on application layer protocols like SMTP and IMAP for their implementation.
+	\item Client-Server communication needs to be encrypted in order to ensure secure data transfer. Thus, we require a HTTPS/SSL (or TLS) connections between the client and server always.
+	\item Electronic payments for booking and confirmation must be implemented using secure, encrypted VPN tunnels. This responsibility will be relegated to the payment gateway service provider.  
+\end{enumerate}
 
 
 % -----------------------------------------------------
-% Chapter Requirements
+% Chapter 4 Requirements
 % -----------------------------------------------------
 \chapter{Requirements}
 \section{User Requirements}
@@ -190,37 +264,79 @@ A high-level diagrammatic representation of the user activity is depicted below
 			\item[\textbf{4.2}] The app should minimize the amount of personally identifying information (PII) that it collects.
 		\end{enumerate}
 	
-
+% ------------------------------------------------------
+% Chapter 5 
+% ------------------------------------------------------
 \chapter{System Models}
 \section{Use Case Diagram}
+A use case diagram at its simplest is a representation of a user's interaction with the system that shows the relationship between the user and the different use cases in which the user is involved. A use case diagram can identify the different types of users of a system. There are two type user in GitGroup that are owner and collaborator. Both of them can use KanBan, view charts, and do chat. But the owner have higher privilege, they have the permission to invite or remove collaborator, delete the project or create and remove KanBan etc.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\textwidth]{./pics/UseCaseDiagram.png}
 	\caption{Use Case Diagram (Details in Appendix A)}
 \end{figure}
+\subsection{KanBan}
+The Kanban board which is similar to projects board in the Gitub. In the Kanban board, there are several columns represent different stage of the developement process, such as TODO, Ready, In Progress, Done... You can customize your own stage. Both owner and collaborators can access KanBan, However the owner has higher privilege.\\
+Every column contains issue card imported from the Github, and you can easily drug them among the columns. If you drug it to the Done column. The issue in the Github will be automatically closed.
+\subsection{Chart}
+GitGroup offers a variety of Agile charts and analytics to help you keep track of how your team is doing. Both owner and collaborators can view these charts.
+\begin{enumerate}
+	\renewcommand{\labelenumi}{{\textbf{\arabic{enumi}.}}}
+	\item Burndown and Burnup Charts
+	\item Throughput Chart
+	\item Users Throughput Chart
+	\item Velocity Chart
+\end{enumerate}
+\subsection{Chat}
+GitGroup offers chat room for users to communication. There are two types of chat. One is global chat which is used to communicate friends directly. Another is in-team chat which is used to communicate among the team members.
+
 \section{Activity Diagram}
+Activity diagram is used to describe the dynamic aspects of the system. Activity diagram is basically a flowchart to represent the flow from one activity to another activity. The activity can be described as an operation of the system.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\textwidth]{./pics/ActivatyDiagramPARTI.png}
 	\caption{Activity Diagram PART I (Details in Appendix A)}
 \end{figure}
+
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\textwidth]{./pics/ActivatyDiagramPARTII.png}
 	\caption{Activity Diagram PART II (Details in Appendix A)}
 \end{figure}
+According to the activity diagram, the workflow of GitGroup is:\\
+The user tries to log in and this generates an authentication request which uses GitHub to verify the identity of the user.
+If it is an unregistered user, the user can sign up.\\
+After successful login, the user is redirected to his/her dashboard. Here the user can manage their projects and team. The data is fetched from MongoDB.\\
+The user has functionalities of creating a new project, removing a project after checking if it is empty.\\
+After user creates a project, he/she has administration privilege of organizing a team to finish the software development, managing team members and GitHub repositories like adding or removing collaborators and repositories.\\
+The major part of their dashboard is Kanban boar, which is a significant tool to help developer manage the development process. In the Kanban board, there are several columns represent different stage of the development process, such as TODO, Ready, In Progress, Done... \\
+User can add or remove Kanban board and customize your own Kanban board column which can classify you cards of different development stage. Every column contains issue card imported from the GitHub, and you can easily drag them among the columns. If you drag it to the Done column. The issue in the GitHub will be automatically closed.  \\
+The second part of dashboard is four charts, Burndown and Burnup charts, Throughput chart, Users Throughput chart and Velocity Chart, to analysis the development duration, quality and the team work situation of the project.\\
+The communication among team members can also be done in the page of the GitGroup. Team member can easily chat with each other after integrating the chat room into GitGroup. The issue cards are easily transported among the team member through the chat system. Team owner can send notification of online meeting chat. User can also start a group chat in the global scope.\\
+User also has functionalities of viewing and editing his/her profile.
+
 \section{Sequence Diagram}
+A sequence diagram shows object interactions arranged in time sequence. It depicts the objects and classes involved in the scenario and the sequence of messages exchanged between the objects needed to carry out the functionality of the scenario.
+The following sequence diagram is used to show how GitHub authorization works.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\textwidth]{./pics/AuthSequenceDiagram.png}
 	\caption{Sequence Diagram For Authorization (Details in Appendix A)}
 \end{figure}
 
+GitGroup acts on behalf of a user, it performs user-to-server requests. These requests must be authorized with a user's access token. User-to-server requests include requesting data for a user, like determining which repositories to display to a particular user. These requests also include actions triggered by a user, like running a build, in order to identifying and authorizing users on GitGroup, it must identify GitHub users when they visit GitGroup using OAuth.\\
+When GitGroup user click authorization button they are redirected to request his/her GitHub identity. The web browser will send a request for GitHub access token to GitGroup server, and GitGroup server redirected to request a GitHub identity to GitHub Authorization Server. \\
+Then GitHub redirects back to GitGroup authorization page, wait for user to accept. After user accept the request, web server submit the agree form to GitHub authorization server, and GitHub redirects back with a temporary code in a code parameter as well as the state GitGroup server provided in the previous step in a state parameter. If the states don?t match, the request was created by a third party and the process should be aborted. GitGroup exchange this code for an access token, then save this token in GitGroup database for later using and user get the GitHub access token. \\
+When user request data with access token, user are directed to request data related to the GitHub protected data, and GitGroup server request to access GitHub user protected resource and handle GitHub resource, do business logic and re-package the resource. At last GitGroup return data to web server, web server visualize the data and display it to user.\\
+Once user request data without access token or with wrong access token which means GitGroup cannot access GitHub user protected resource. After GitHub reject the access, GitGroup server return authorization fail information to user. User will request data successfully only if user request correct GitHub access token.\\
+\\
+The following sequence diagram shows the how the 3 sub-system including project management system, project analytics system and chat system interact with each other.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\textwidth]{./pics/SubSysSequenceDiagram.png}
 	\caption{Sequence Diagram For Sub-Systems (Details in Appendix A)}
 \end{figure}
+Users can get and edit data via project management system. And the Project Analytics system must get data from project management system firstly and then return the analytics data to build chart. Also in-team chat need associate with project management system. But the global can work alone without any other systems.
 
 \section{Class Diagram}
 \begin{figure}[H]
@@ -228,7 +344,11 @@ A high-level diagrammatic representation of the user activity is depicted below
 	\includegraphics[width=0.6\textwidth]{./pics/ClassDiagram.png}
 	\caption{UML Class Diagram (Details in Appendix A)}
 \end{figure}
-
+The project manage management system is the most important part of GitGroup.\\
+User class represents the user of GitGroup, its properties are id, name and repositories. Because there are two types of users, there are two class Owner and Collaborator extend from User.\\
+Project class represents the project in GitGroup, the project is the combination of repositories. Its properties have id, name, repositories and collaborators.\\
+Repository class represents the repository in GitHub. Its properties have id, name, owner, description, issues, kanbans and collaborators. And also the Issue class represents the issue in GitHub.\\
+KanBan, KanBanColumn and Card class are key classes for KanBan board functionality. Card's properties are note and the column id it belongs to. KanBan's properties are id, name, body, state(close or open) and columns it has. KanBanColumn's properties are id, name, KanBan which the column belong to, Cards which the column has.
 % ----------------------------------------------
 % Chapter System Architecture
 % ----------------------------------------------

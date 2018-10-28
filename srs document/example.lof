@@ -1,25 +1,27 @@
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces GitHub Marketplace}}{2}{figure.1.1}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces GitHub Marketplace}}{2}{figure.1.2}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Overview User Interface (Details in Appendix A)}}{5}{figure.3.1}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces KanBan User Interface (Details in Appendix A)}}{6}{figure.3.2}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Chart User Interface (Details in Appendix A)}}{6}{figure.3.3}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Overview User Interface (Details in Appendix A)}}{7}{figure.3.1}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces KanBan User Interface (Details in Appendix A)}}{8}{figure.3.2}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Chart User Interface (Details in Appendix A)}}{9}{figure.3.3}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Use Case Diagram (Details in Appendix A)}}{10}{figure.5.1}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Activity Diagram PART I (Details in Appendix A)}}{11}{figure.5.2}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Activity Diagram PART II (Details in Appendix A)}}{11}{figure.5.3}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Sequence Diagram For Authorization (Details in Appendix A)}}{12}{figure.5.4}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Sequence Diagram For Sub-Systems (Details in Appendix A)}}{13}{figure.5.5}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces UML Class Diagram (Details in Appendix A)}}{14}{figure.5.6}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Use Case Diagram (Details in Appendix A)}}{13}{figure.5.1}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Activity Diagram PART I (Details in Appendix A)}}{14}{figure.5.2}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Activity Diagram PART II (Details in Appendix A)}}{15}{figure.5.3}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Sequence Diagram For Authorization (Details in Appendix A)}}{16}{figure.5.4}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Sequence Diagram For Sub-Systems (Details in Appendix A)}}{17}{figure.5.5}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces UML Class Diagram (Details in Appendix A)}}{18}{figure.5.6}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces GitGroup System Architecture}}{15}{figure.6.1}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces GitGroup System Architecture}}{19}{figure.6.1}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces \textbf {DETAIL} Overview User Interface}}{19}{figure.A.1}
-\contentsline {figure}{\numberline {A.2}{\ignorespaces \textbf {DETAIL} KanBan User Interface}}{20}{figure.A.2}
-\contentsline {figure}{\numberline {A.3}{\ignorespaces \textbf {DETAIL} Chart User Interface}}{21}{figure.A.3}
-\contentsline {figure}{\numberline {A.4}{\ignorespaces \textbf {DETAIL} Activity Diagram PART I}}{22}{figure.A.4}
-\contentsline {figure}{\numberline {A.5}{\ignorespaces \textbf {DETAIL} Activity Diagram PART II}}{23}{figure.A.5}
-\contentsline {figure}{\numberline {A.6}{\ignorespaces \textbf {DETAIL} Sequence Diagram For Authorization}}{24}{figure.A.6}
-\contentsline {figure}{\numberline {A.7}{\ignorespaces \textbf {DETAIL} Sequence Diagram For Sub-Systems}}{25}{figure.A.7}
-\contentsline {figure}{\numberline {A.8}{\ignorespaces \textbf {DETAIL} UML Class Diagram}}{26}{figure.A.8}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces \textbf {DETAIL} Overview User Interface}}{23}{figure.A.1}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces \textbf {DETAIL} KanBan User Interface}}{24}{figure.A.2}
+\contentsline {figure}{\numberline {A.3}{\ignorespaces \textbf {DETAIL} Chart User Interface}}{25}{figure.A.3}
+\contentsline {figure}{\numberline {A.4}{\ignorespaces \textbf {DETAIL} Activity Diagram PART I}}{26}{figure.A.4}
+\contentsline {figure}{\numberline {A.5}{\ignorespaces \textbf {DETAIL} Activity Diagram PART II}}{27}{figure.A.5}
+\contentsline {figure}{\numberline {A.6}{\ignorespaces \textbf {DETAIL} Sequence Diagram For Authorization}}{28}{figure.A.6}
+\contentsline {figure}{\numberline {A.7}{\ignorespaces \textbf {DETAIL} Sequence Diagram For Sub-Systems}}{29}{figure.A.7}
+\contentsline {figure}{\numberline {A.8}{\ignorespaces \textbf {DETAIL} UML Class Diagram}}{30}{figure.A.8}
