@@ -208,15 +208,13 @@ The Chart UI is easy and understandable. The main part shows different charts an
 \section{Hardware Interfaces}
 Owing to the responsive nature of the product, it would require nothing more than a simple browser installed on a mobile phone, a tablet or a personal computer. A reasonable amount of RAM on the device would be enough to support the browser and the associated product. \cite{parking_marketplace_srs}
 \section{Software Interfaces}
-The product will use certain 3rd party libraries or api?s to supplement overall system functionality. The google maps api is used for geocoding street addresses to geographical coordinates that can be used to place markers on the map. These markers provide visual representation for locating parking spaces for drivers. Api?s for financial transactions will be used by the product for booking spots. Communication between the core-application and the api implementation normally happens through SOAP messages.  \\
+The product will use certain 3rd party libraries or api's to supplement overall system functionality. The google maps api is used for geocoding street addresses to geographical coordinates that can be used to place markers on the map. These markers provide visual representation for locating parking spaces for drivers. Api's for financial transactions will be used by the product for booking spots. Communication between the core-application and the api implementation normally happens through SOAP messages.  \\
 Software interacts with the database using JSON objects. MongoDB, the primary database vendor stores these objects in binary encoded form called BSON (or Binary JSON). The underlying operating system that runs the application server (web host) will be Linux. \cite{parking_marketplace_srs}
 \section{Communication Interfaces}
 The product will make use of a set of communications interface standards. They are summarized below. \cite{parking_marketplace_srs}
 \begin{enumerate}
 	\renewcommand{\labelenumi}{{\textbf{\arabic{enumi}.}}}
-	\item Emails are sent to drivers when a booking has been made. Similarly, owners receive booking information through email when drivers reserve parking spots. These features depend on application layer protocols like SMTP and IMAP for their implementation.
-	\item Client-Server communication needs to be encrypted in order to ensure secure data transfer. Thus, we require a HTTPS/SSL (or TLS) connections between the client and server always.
-	\item Electronic payments for booking and confirmation must be implemented using secure, encrypted VPN tunnels. This responsibility will be relegated to the payment gateway service provider.  
+	\item Client-Server communication needs to be encrypted in order to ensure secure data transfer. Thus, we require a HTTPS/SSL (or TLS) connections between the client and server always.  
 \end{enumerate}
 
 
@@ -370,7 +368,7 @@ The following sequence diagram is used to show how GitHub authorization works.
 
 GitGroup acts on behalf of a user, it performs user-to-server requests. These requests must be authorized with a user's access token. User-to-server requests include requesting data for a user, like determining which repositories to display to a particular user. These requests also include actions triggered by a user, like running a build, in order to identifying and authorizing users on GitGroup, it must identify GitHub users when they visit GitGroup using OAuth.\\
 When GitGroup user click authorization button they are redirected to request his/her GitHub identity. The web browser will send a request for GitHub access token to GitGroup server, and GitGroup server redirected to request a GitHub identity to GitHub Authorization Server. \\
-Then GitHub redirects back to GitGroup authorization page, wait for user to accept. After user accept the request, web server submit the agree form to GitHub authorization server, and GitHub redirects back with a temporary code in a code parameter as well as the state GitGroup server provided in the previous step in a state parameter. If the states don?t match, the request was created by a third party and the process should be aborted. GitGroup exchange this code for an access token, then save this token in GitGroup database for later using and user get the GitHub access token. \\
+Then GitHub redirects back to GitGroup authorization page, wait for user to accept. After user accept the request, web server submit the agree form to GitHub authorization server, and GitHub redirects back with a temporary code in a code parameter as well as the state GitGroup server provided in the previous step in a state parameter. If the states don't match, the request was created by a third party and the process should be aborted. GitGroup exchange this code for an access token, then save this token in GitGroup database for later using and user get the GitHub access token. \\
 When user request data with access token, user are directed to request data related to the GitHub protected data, and GitGroup server request to access GitHub user protected resource and handle GitHub resource, do business logic and re-package the resource. At last GitGroup return data to web server, web server visualize the data and display it to user.\\
 Once user request data without access token or with wrong access token which means GitGroup cannot access GitHub user protected resource. After GitHub reject the access, GitGroup server return authorization fail information to user. User will request data successfully only if user request correct GitHub access token.\\
 \\
@@ -423,19 +421,19 @@ MongoDB is used via mLab in this project. And Mongoose is chosen as the ORM(Obje
 \subsection{Document-Oriented}
 Every document in a collection has a unique identifier by which it can be accessed because the identifier is indexed automatically.
 \subsection{Schema-Less}
-Storing an object in a MongoDB database does not have to follow a prescribed schema. All documents in a collection need not have the same set of fields. MongoDB?s flexible data model also means that our database schema can evolve with business requirements. For instance, schema changes that took days of weeks in The Weather Channel's MySQL databases could be made in just hours with MongoDB.  
+Storing an object in a MongoDB database does not have to follow a prescribed schema. All documents in a collection need not have the same set of fields. MongoDB's flexible data model also means that our database schema can evolve with business requirements. For instance, schema changes that took days of weeks in The Weather Channel's MySQL databases could be made in just hours with MongoDB.  
 \subsection{JavaScript Based}
-MongoDB?s language is JavaScript. For relational database, there is a query language called SQL. For MongoDB, the query language is based on JSON: you create, search for, make changes, and delete documents by specifying the operation in a JSON object. 
+MongoDB's language is JavaScript. For relational database, there is a query language called SQL. For MongoDB, the query language is based on JSON: you create, search for, make changes, and delete documents by specifying the operation in a JSON object. 
 \section{Express}
 Express, \cite{wiki:express} a web server built on Node.js, forms the middle tier or the web server. It defines routes, specifications of what to do when a HTTP request matching a certain pattern arrives. The matching specification is regular expression (regex) based and is very flexible. The what-to-do part is just a function that is given the parsed HTTP request. Express parses request URL, headers, and parameters for us. On the response side, it has, as expected, all of the functionality required by web applications including setting response codes, setting cookies, sending custom headers, etc.  
 \section{React}
-React \cite{wiki:reactjs} is a front-end technology from Facebook. It?s not a full-fledged MVC framework, but it?s a JavaScript library for building user interfaces, so in some sense it?s the view part of MVC. We use React to render a view because it tries to solve the problem from the View layer by creating abstract representations of views. It breaks down parts of the view in the Components. These components encompass both the logic to handle the display of view and the view itself. It can contain data that it uses to render the state of the app. 
+React \cite{wiki:reactjs} is a front-end technology from Facebook. It's not a full-fledged MVC framework, but it's a JavaScript library for building user interfaces, so in some sense it's the view part of MVC. We use React to render a view because it tries to solve the problem from the View layer by creating abstract representations of views. It breaks down parts of the view in the Components. These components encompass both the logic to handle the display of view and the view itself. It can contain data that it uses to render the state of the app. 
 \subsection{Why use ReactJs?}\cite{parking_marketplace_srs}
 \begin{enumerate}
 	\renewcommand{\labelenumi}{{\textbf{\arabic{enumi}.}}}
 	\item DOM manipulation is the heart of the modern, interactive web. Unfortunately, it is also a lot slower than most JavaScript operations.
 	\item This slowness is made worse by the fact that most JavaScript frameworks update the DOM much more than they have to.
-	\item React views are declarative. We use it so that we don't have to worry about managing the effect of changes in the view?s state or the data, meaning we do not worry about transitions or mutations in the DOM caused by changes to the view's state.  
+	\item React views are declarative. We use it so that we don't have to worry about managing the effect of changes in the view's state or the data, meaning we do not worry about transitions or mutations in the DOM caused by changes to the view's state.  
 \end{enumerate}
 \subsection{How does it works?}\cite{parking_marketplace_srs}
 \begin{enumerate}
