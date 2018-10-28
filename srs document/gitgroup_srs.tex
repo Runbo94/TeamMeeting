@@ -19,6 +19,7 @@
 	linkcolor=black,
 	urlcolor=black
 }
+\usepackage{apacite}
 
 % title information
 \titlepic{\includegraphics[width=12em]{./pics/Dog-Icon-letter.png}}
@@ -273,7 +274,7 @@ The product will make use of a set of communications interface standards. They a
 		\end{enumerate}
 	
 % ------------------------------------------------------
-% Chapter 5 
+% Chapter 5 System Models
 % ------------------------------------------------------
 \chapter{System Models}
 \section{Use Case Diagram}
@@ -281,7 +282,7 @@ A use case diagram at its simplest is a representation of a user's interaction w
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\textwidth]{./pics/UseCaseDiagram.png}
-	\caption{Use Case Diagram (Details in Appendix A)}
+	\caption{Use Case Diagram}
 \end{figure}
 \subsection{KanBan}
 The Kanban board which is similar to projects board in the Gitub. In the Kanban board, there are several columns represent different stage of the developement process, such as TODO, Ready, In Progress, Done... You can customize your own stage. Both owner and collaborators can access KanBan, However the owner has higher privilege.\\
@@ -305,7 +306,21 @@ GitGroup offers a variety of Agile charts and analytics to help you keep track o
 \end{enumerate}
 \subsection{Chat}
 GitGroup offers chat room for users to communication. There are two types of chat. One is global chat which is used to communicate friends directly. Another is in-team chat which is used to communicate among the team members.
-
+\section{State Diagram}
+A state diagram, sometimes known as a state machine diagram, is a type of behavioral diagram in the Unified Modeling Language (UML) that shows transitions between various objects. \\ 
+The following state diagram shows the transition of the user type. Every use can create their own projects. If they are in their own projects, they are owners, verse and vice, they are collaborator. Therefore, one user can be both owner and collaborator according the project they are managing.\\
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\textwidth]{./pics/UserTypeStateDiagram.png}
+	\caption{User Type State Diagram }
+\end{figure}
+GitGroup offers every project a KanBan board. You can create multiple KanBans for the project and every KanBan has its own due day, after the due day the KanBan will finished no matter how many cards are not finished. These unfinished cards' information is used to analyzed the project development status.\\
+In one KanBan, some cards which represent some task flow through a set of step, such as developing, testing, done... . Each moving of a card will change its state in the KanBan.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{./pics/KanBanStateDiagram.png}
+	\caption{KanBan State Diagram }
+\end{figure}
 \section{Activity Diagram}
 Activity diagram is used to describe the dynamic aspects of the system. Activity diagram is basically a flowchart to represent the flow from one activity to another activity. The activity can be described as an operation of the system.
 \begin{figure}[H]
@@ -365,8 +380,9 @@ User class represents the user of GitGroup, its properties are id, name and repo
 Project class represents the project in GitGroup, the project is the combination of repositories. Its properties have id, name, repositories and collaborators.\\
 Repository class represents the repository in GitHub. Its properties have id, name, owner, description, issues, kanbans and collaborators. And also the Issue class represents the issue in GitHub.\\
 KanBan, KanBanColumn and Card class are key classes for KanBan board functionality. Card's properties are note and the column id it belongs to. KanBan's properties are id, name, body, state(close or open) and columns it has. KanBanColumn's properties are id, name, KanBan which the column belong to, Cards which the column has.
+
 % ----------------------------------------------
-% Chapter System Architecture
+% Chapter 6 System Architecture
 % ----------------------------------------------
 \chapter{System Architecture}
 \begin{figure}[H]
@@ -459,6 +475,13 @@ In this project, Heroku is the platform where GitGroup is deployed to.
 \listoffigures
 \cleardoublepage
 \listoftables
+
+% -------------------------------------------------------
+% References
+% -------------------------------------------------------
+\bibliographystyle{apacite}
+\bibliography{References}
+
 
 
 \end{document}
