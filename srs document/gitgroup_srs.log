@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.14)  28 OCT 2018 11:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.14)  28 OCT 2018 12:14
 entering extended mode
 **./gitgroup_srs.tex
 (gitgroup_srs.tex
@@ -454,7 +454,7 @@ een already used, duplicate ignored
 l.37 \newpage
               [2]
 Chapter 1.
-<./pics/githubMarket.png, id=267, 949.5475pt x 503.8825pt>
+<./pics/githubMarket.png, id=269, 949.5475pt x 503.8825pt>
 File: ./pics/githubMarket.png Graphic file (type png)
 
 <use ./pics/githubMarket.png>
@@ -464,7 +464,7 @@ Package pdftex.def Info: ./pics/githubMarket.png used on input line 67.
 
 
 ]
-<./pics/gitgrouphomepage.png, id=278, 602.25pt x 324.21124pt>
+<./pics/gitgrouphomepage.png, id=281, 602.25pt x 324.21124pt>
 File: ./pics/gitgrouphomepage.png Graphic file (type png)
 
 <use ./pics/gitgrouphomepage.png>
@@ -481,14 +481,14 @@ Chapter 2.
 
 ] [5] [6]
 Chapter 3.
-<./pics/OverviewInterface.png, id=333, 1030.34938pt x 973.13562pt>
+<./pics/OverviewInterface.png, id=338, 1030.34938pt x 973.13562pt>
 File: ./pics/OverviewInterface.png Graphic file (type png)
 
 <use ./pics/OverviewInterface.png>
 Package pdftex.def Info: ./pics/OverviewInterface.png used on input line 189.
 (pdftex.def)             Requested size: 297.80121pt x 281.25177pt.
 
-<./pics/KanbanInterface.png, id=334, 1030.34938pt x 973.13562pt>
+<./pics/KanbanInterface.png, id=339, 1030.34938pt x 973.13562pt>
 File: ./pics/KanbanInterface.png Graphic file (type png)
 
 <use ./pics/KanbanInterface.png>
@@ -502,7 +502,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 192--200
 [7
 
  <./pics/OverviewInterface.png>]
-<./pics/ChartInterface.png, id=340, 1030.34938pt x 973.13562pt>
+<./pics/ChartInterface.png, id=346, 1030.34938pt x 973.13562pt>
 File: ./pics/ChartInterface.png Graphic file (type png)
 
 <use ./pics/ChartInterface.png>
@@ -520,7 +520,7 @@ mov-ing repos-i-to-ries of their projects.
 
 ] [12]
 Chapter 5.
-<./pics/UseCaseDiagram.png, id=376, 913.91437pt x 745.78625pt>
+<./pics/UseCaseDiagram.png, id=394, 913.91437pt x 745.78625pt>
 File: ./pics/UseCaseDiagram.png Graphic file (type png)
 
 <use ./pics/UseCaseDiagram.png>
@@ -529,7 +529,7 @@ Package pdftex.def Info: ./pics/UseCaseDiagram.png used on input line 284.
  [13
 
  <./pics/UseCaseDiagram.png>] [14]
-<./pics/UserTypeStateDiagram.png, id=390, 522.95375pt x 259.97125pt>
+<./pics/UserTypeStateDiagram.png, id=413, 522.95375pt x 259.97125pt>
 File: ./pics/UserTypeStateDiagram.png Graphic file (type png)
 
 <use ./pics/UserTypeStateDiagram.png>
@@ -541,14 +541,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 310--316
 
  []
 
-<./pics/KanBanStateDiagram.png, id=391, 1005.25563pt x 387.94937pt>
+<./pics/KanBanStateDiagram.png, id=414, 1005.25563pt x 387.94937pt>
 File: ./pics/KanBanStateDiagram.png Graphic file (type png)
 
 <use ./pics/KanBanStateDiagram.png>
 Package pdftex.def Info: ./pics/KanBanStateDiagram.png used on input line 321.
 (pdftex.def)             Requested size: 397.06577pt x 153.23535pt.
 
-<./pics/ActivatyDiagramPARTI.png, id=392, 1465.97687pt x 830.60312pt>
+<./pics/ActivatyDiagramPARTI.png, id=415, 1465.97687pt x 830.60312pt>
 File: ./pics/ActivatyDiagramPARTI.png Graphic file (type png)
 
 <use ./pics/ActivatyDiagramPARTI.png>
@@ -556,7 +556,7 @@ Package pdftex.def Info: ./pics/ActivatyDiagramPARTI.png used on input line 328
 .
 (pdftex.def)             Requested size: 347.4297pt x 196.83937pt.
  [15 <./pics/UserTypeStateDiagram.png> <./pics/KanBanStateDiagram.png>]
-<./pics/ActivatyDiagramPARTII.png, id=399, 1529.715pt x 1559.8275pt>
+<./pics/ActivatyDiagramPARTII.png, id=422, 1529.715pt x 1559.8275pt>
 File: ./pics/ActivatyDiagramPARTII.png Graphic file (type png)
 
 <use ./pics/ActivatyDiagramPARTII.png>
@@ -564,7 +564,7 @@ Package pdftex.def Info: ./pics/ActivatyDiagramPARTII.png used on input line 33
 4.
 (pdftex.def)             Requested size: 347.4297pt x 354.2544pt.
  [16 <./pics/ActivatyDiagramPARTI.png> <./pics/ActivatyDiagramPARTII.png>]
-<./pics/AuthSequenceDiagram.png, id=407, 1269.24188pt x 1522.18687pt>
+<./pics/AuthSequenceDiagram.png, id=430, 1269.24188pt x 1522.18687pt>
 File: ./pics/AuthSequenceDiagram.png Graphic file (type png)
 
 <use ./pics/AuthSequenceDiagram.png>
@@ -572,7 +572,7 @@ Package pdftex.def Info: ./pics/AuthSequenceDiagram.png used on input line 354.
 
 (pdftex.def)             Requested size: 347.4297pt x 416.66327pt.
  [17]
-<./pics/SubSysSequenceDiagram.png, id=412, 774.39313pt x 831.105pt>
+<./pics/SubSysSequenceDiagram.png, id=435, 774.39313pt x 831.105pt>
 File: ./pics/SubSysSequenceDiagram.png Graphic file (type png)
 
 <use ./pics/SubSysSequenceDiagram.png>
@@ -585,7 +585,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 358--369
  []
 
 [18 <./pics/AuthSequenceDiagram.png>]
-<./pics/ClassDiagram.png, id=418, 722.7pt x 1117.67563pt>
+<./pics/ClassDiagram.png, id=441, 722.7pt x 1117.67563pt>
 File: ./pics/ClassDiagram.png Graphic file (type png)
 
 <use ./pics/ClassDiagram.png>
@@ -593,7 +593,7 @@ Package pdftex.def Info: ./pics/ClassDiagram.png used on input line 375.
 (pdftex.def)             Requested size: 297.80121pt x 460.55232pt.
  [19 <./pics/SubSysSequenceDiagram.png>] [20 <./pics/ClassDiagram.png>]
 Chapter 6.
-<./pics/SystemArchitecture.png, id=429, 1240.13312pt x 740.26563pt>
+<./pics/SystemArchitecture.png, id=452, 1240.13312pt x 740.26563pt>
 File: ./pics/SystemArchitecture.png Graphic file (type png)
 
 <use ./pics/SystemArchitecture.png>
@@ -728,11 +728,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
  (gitgroup_srs.bbl [34
 
 
-]
-
-LaTeX Warning: Empty `thebibliography' environment on input line 3.
-
-)
+])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 487.
  [35
 
@@ -746,21 +742,23 @@ Package rerunfilecheck Info: File `gitgroup_srs.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 487.
  ) 
 Here is how much of TeX's memory you used:
- 7428 strings out of 493323
- 106196 string characters out of 3139066
- 204515 words of memory out of 3000000
- 10683 multiletter control sequences out of 15000+200000
- 13661 words of font info for 52 fonts, out of 3000000 for 9000
+ 7491 strings out of 493323
+ 107277 string characters out of 3139066
+ 206566 words of memory out of 3000000
+ 10732 multiletter control sequences out of 15000+200000
+ 14513 words of font info for 56 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  28i,12n,43p,1242b,416s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmsl12.pfb>
-Output written on gitgroup_srs.pdf (38 pages, 1984823 bytes).
+s/type1/public/amsfonts/cm/cmsl12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmtt12.pfb>
+Output written on gitgroup_srs.pdf (38 pages, 2027217 bytes).
 PDF statistics:
- 581 PDF objects out of 1000 (max. 8388607)
- 161 named destinations out of 1000 (max. 500000)
+ 648 PDF objects out of 1000 (max. 8388607)
+ 172 named destinations out of 1000 (max. 500000)
  468 words of extra memory for PDF output out of 10000 (max. 10000000)
 
