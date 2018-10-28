@@ -83,6 +83,9 @@ From the perspective of framework. ReactJS(Front end framework), Bulma(CSS frame
 	\centering
 	\begin{tabular}{|l|l|}
 		\hline
+		Git        & A version-control system for tracking changes in computer files                                                                \\ \hline
+		GitHub     & A web-based hosting service for version control using Git                                                               \\ \hline
+		REST     & The architectural style defines constraints used for creating web services.                                                          \\ \hline
 		Owner        & Who set up the project or mainly charge of the project \\ \hline
 		Collaborator & Who assists owner or project participants              \\ \hline
 		Project      & An element in GitGroup, including multiple repository  \\ \hline
@@ -153,7 +156,9 @@ The system will implement the model-view-controller software architecture patter
 \section{Design And Implementation Constraints}
 \begin{enumerate}
 	\renewcommand{\labelenumi}{{\textbf{\arabic{enumi}.}}}
-	\item One of the key constraints of the system is the inherent reliability on an internet connection. Since the product is implemented using the client-server model, it is imperative to have an active internet connection.  
+	\item The key constraints of the system is the inherent reliability on an internet connection. Since the product is implemented using the client-server model, it is imperative to have an active internet connection.  
+	\item Because GitGroup is deployed on Heroku. There are some constraints from Heroku including the application will sleep after 30 mins of inactivity, monthly pool of 1000 Free dyno hours. When a Free dyno is active, it draws from the pool; the application can run as long as there are dyno hours left in your monthly pool.
+	\item Because GitGroup will use GitHub API, the constraints come from the status of the GitHub API.
 \end{enumerate}
 \section{Assumptions And Dependencies}
 	\subsection{Assumptions}
@@ -166,6 +171,9 @@ The system will implement the model-view-controller software architecture patter
 		\begin{enumerate}
 		\renewcommand{\labelenumi}{{\textbf{\arabic{enumi}.}}}
 		\item The system will rely heavily on frameworks for user interface development, routing and data handling.   
+		\item The system depends on the Heroku deployment platform.
+		\item The system depends on mLab Cloud Database.
+		\item The system will rely on some third part package, all the dependencies information is in the package.json file in the TypeScript and JavaScript projet.
 	\end{enumerate}
 
 % -----------------------------------------------------
