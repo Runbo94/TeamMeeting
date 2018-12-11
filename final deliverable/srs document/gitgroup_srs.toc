@@ -1,0 +1,56 @@
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Purpose}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}What are GitHub APPs?}{1}{section.1.2}
+\contentsline {section}{\numberline {1.3}Product Scope}{2}{section.1.3}
+\contentsline {section}{\numberline {1.4}Def., Acronyms and Abbr.}{3}{section.1.4}
+\contentsline {section}{\numberline {1.5}Overview of The Document}{3}{section.1.5}
+\contentsline {chapter}{\numberline {2}Overall Description}{4}{chapter.2}
+\contentsline {section}{\numberline {2.1}Product Perspective}{4}{section.2.1}
+\contentsline {section}{\numberline {2.2}Product Functions}{4}{section.2.2}
+\contentsline {section}{\numberline {2.3}User Characteristic}{5}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}For Every User}{5}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}For Collaborator}{5}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}For Owner}{5}{subsection.2.3.3}
+\contentsline {section}{\numberline {2.4}Operating Environment}{6}{section.2.4}
+\contentsline {section}{\numberline {2.5}Design And Implementation Constraints}{6}{section.2.5}
+\contentsline {section}{\numberline {2.6}Assumptions And Dependencies}{6}{section.2.6}
+\contentsline {subsection}{\numberline {2.6.1}Assumptions}{6}{subsection.2.6.1}
+\contentsline {subsection}{\numberline {2.6.2}Dependencies}{6}{subsection.2.6.2}
+\contentsline {chapter}{\numberline {3}Interface Requirements}{7}{chapter.3}
+\contentsline {section}{\numberline {3.1}User Interfaces}{7}{section.3.1}
+\contentsline {section}{\numberline {3.2}Hardware Interfaces}{9}{section.3.2}
+\contentsline {section}{\numberline {3.3}Software Interfaces}{9}{section.3.3}
+\contentsline {section}{\numberline {3.4}Communication Interfaces}{10}{section.3.4}
+\contentsline {chapter}{\numberline {4}Requirements}{11}{chapter.4}
+\contentsline {section}{\numberline {4.1}User Requirements}{11}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Functional User Requirement}{11}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Non-Functional User Requirement}{11}{subsection.4.1.2}
+\contentsline {section}{\numberline {4.2}System Requirements}{11}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}User Interfaces (Functional Requirements)}{11}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Back-end Interfaces(Functional Requirements)}{12}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Non-Functional System Requirement}{13}{subsection.4.2.3}
+\contentsline {chapter}{\numberline {5}System Models}{14}{chapter.5}
+\contentsline {section}{\numberline {5.1}Use Case Diagram}{14}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}KanBan}{14}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Chart}{15}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Chat}{15}{subsection.5.1.3}
+\contentsline {section}{\numberline {5.2}State Diagram}{16}{section.5.2}
+\contentsline {section}{\numberline {5.3}Activity Diagram}{16}{section.5.3}
+\contentsline {section}{\numberline {5.4}Sequence Diagram}{18}{section.5.4}
+\contentsline {section}{\numberline {5.5}Class Diagram}{21}{section.5.5}
+\contentsline {chapter}{\numberline {6}System Architecture}{22}{chapter.6}
+\contentsline {section}{\numberline {6.1}TypeScript}{22}{section.6.1}
+\contentsline {section}{\numberline {6.2}mLab}{23}{section.6.2}
+\contentsline {section}{\numberline {6.3}MongoDB}{23}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}NoSQL language}{23}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Document-Oriented}{23}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.3.3}Schema-Less}{23}{subsection.6.3.3}
+\contentsline {subsection}{\numberline {6.3.4}JavaScript Based}{23}{subsection.6.3.4}
+\contentsline {section}{\numberline {6.4}Express}{24}{section.6.4}
+\contentsline {section}{\numberline {6.5}React}{24}{section.6.5}
+\contentsline {subsection}{\numberline {6.5.1}Why use ReactJs?}{24}{subsection.6.5.1}
+\contentsline {subsection}{\numberline {6.5.2}How does it works?}{24}{subsection.6.5.2}
+\contentsline {section}{\numberline {6.6}NodeJs}{25}{section.6.6}
+\contentsline {section}{\numberline {6.7}Heroku}{25}{section.6.7}
+\contentsline {chapter}{\numberline {A}Figures}{26}{appendix.A}
+\contentsline {chapter}{References}{37}{appendix*.4}
